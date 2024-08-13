@@ -2,7 +2,7 @@
 
 This file contains instructions to run the plant predictor model described in my final project report.
 
-Since the model used is an LGBM trained on the outputs from separately-trained image and numerical data models, there are a few different files that would need to be run which generate intermediate data. **However, I have included all the intermediate data in the repository so that if desired, the results can be reproduced with only the final Python file.**
+Since the model used is an LGBM trained on the outputs from separately-trained image and numerical data models, there are a few different files that would need to be run which generate intermediate data. **However, I have included all the intermediate data in the repository so that if desired, the results can be reproduced with only the final Python file.** The only exception to including intermediate data was `image_model_frozendino.pth` which was too large to be uploaded to GitHub, so that would need to be regenerated using step 1 if you would like to follow the steps all the way through.
 
 `common.py` contains the model code and other common functions that are used across multiple files. If running in a notebook, the contents of this file will need to be pasted above the file to run, and the `from common import *` at the top of the specfic file being run will need to be removed.
 
